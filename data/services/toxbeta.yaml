@@ -1,5 +1,8 @@
-cmd: "/usr/bin/npm start"
-dir: "/root/ToxMod/BetaSite"
+cmd: /usr/bin/npm start
+dir: /root/ToxMod/BetaSite
 target: toxmod
-after: ibl-maint
 description: ToxMod Beta Site
+after: ibl-maint
+broken: true
+user: ""
+group: ""
