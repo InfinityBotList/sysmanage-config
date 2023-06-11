@@ -1,5 +1,8 @@
-cmd: "/usr/bin/npm start"
-dir: "/root/MigiziBot"
+cmd: /usr/bin/npm start
+dir: /root/MigiziBot
 target: migizi
-after: ibl-maint
 description: Migizi Bot
+after: ibl-maint
+broken: true
+user: ""
+group: ""
