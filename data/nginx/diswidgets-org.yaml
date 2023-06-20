@@ -8,3 +8,4 @@ servers:
         - path: /
           proxy: http://127.0.0.1:4225
           opts: []
+real_name: ""
