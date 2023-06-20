@@ -3,13 +3,13 @@ module sysmanage-config
 go 1.20
 
 require (
-	github.com/infinitybotlist/eureka v0.0.0-20230618182243-05756f05a15b
-	github.com/infinitybotlist/sysmanage-web v0.0.0-20230619053007-e9badaa1c8fb
+	github.com/infinitybotlist/eureka v0.0.0-20230619185914-86d810f662ff
+	github.com/infinitybotlist/sysmanage-web v0.0.0-20230620103505-257fef999737
 )
 
 require (
 	github.com/Microsoft/go-winio v0.6.1 // indirect
-	github.com/ProtonMail/go-crypto v0.0.0-20230528122434-6f98819771a1 // indirect
+	github.com/ProtonMail/go-crypto v0.0.0-20230619160724-3fbb1f12458c // indirect
 	github.com/acomagu/bufpipe v1.0.4 // indirect
 	github.com/cloudflare/circl v1.3.3 // indirect
 	github.com/cloudflare/cloudflare-go v0.69.0 // indirect
