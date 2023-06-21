@@ -134,4 +134,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:4950
           opts: []
+    - id: alpine
+      names:
+        - alpine
+      comment: Infinity Development Portal
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:1234
+          opts: []
 real_name: ""

@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/infinitybotlist/eureka v0.0.0-20230619185914-86d810f662ff
-	github.com/infinitybotlist/sysmanage-web v0.0.0-20230620103505-257fef999737
+	github.com/infinitybotlist/sysmanage-web v0.0.0-20230620114731-c112d0dffff8
 )
 
 require (
