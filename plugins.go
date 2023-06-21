@@ -1,7 +1,6 @@
 package main
 
 import (
-	"sysmanage-config/plugins/foo"
 	"sysmanage-config/plugins/updprod"
 
 	"github.com/infinitybotlist/sysmanage-web/plugins/actions"
@@ -15,42 +14,44 @@ import (
 
 var meta = types.ServerMeta{
 	ConfigVersion: 1,
-	Plugins: map[string]types.Plugin{
-		"nginx": {
+	Plugins: []types.Plugin{
+		{
+			ID: nginx.ID,
 			Init: nginx.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
 			},
 		},
-		"systemd": {
+		{
+			ID: systemd.ID,
 			Init: systemd.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
 			},
 		},
 		// Persist has no frotend, it is a backend plugin
-		"persist": {
+		{
+			ID: persist.ID,
 			Init: persist.InitPlugin,
 		},
-		"actions": {
+		{
+			ID: actions.ID,
 			Init: actions.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
 			},
 		},
 		// Frontend has no frontend, it is a backend plugin
-		"frontend": {
+		{
+			ID: frontend.ID,
 			Init: frontend.InitPlugin,
 		},
-		// Example of a custom plugin
-		"foo": {
-			Init:     foo.InitPlugin,
-			Frontend: types.Provider{Provider: "frontend/extplugins/foo"}, // This is the path to the plugin's frontend
-		},
-		"updprod": {
+		{
+			ID: updprod.ID,
 			Init: updprod.InitPlugin,
 		},
-		"logger": {
+		{
+			ID: logger.ID,
 			Init: logger.InitPlugin,
 		},
 	},

@@ -9,6 +9,8 @@ import (
 	"github.com/infinitybotlist/sysmanage-web/types"
 )
 
+const ID = "updprod"
+
 var GitRepo string
 var GithubUsername string
 var VercelDeployHook string

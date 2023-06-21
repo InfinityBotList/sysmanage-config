@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/infinitybotlist/eureka v0.0.0-20230619185914-86d810f662ff
-	github.com/infinitybotlist/sysmanage-web v0.0.0-20230620114731-c112d0dffff8
+	github.com/infinitybotlist/sysmanage-web v0.0.0-20230621143149-2daae2a63ca6
 )
 
 require (
@@ -12,7 +12,7 @@ require (
 	github.com/ProtonMail/go-crypto v0.0.0-20230619160724-3fbb1f12458c // indirect
 	github.com/acomagu/bufpipe v1.0.4 // indirect
 	github.com/cloudflare/circl v1.3.3 // indirect
-	github.com/cloudflare/cloudflare-go v0.69.0 // indirect
+	github.com/cloudflare/cloudflare-go v0.70.0 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/fatih/color v1.15.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect

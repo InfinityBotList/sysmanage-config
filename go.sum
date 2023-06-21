@@ -16,6 +16,8 @@ github.com/cloudflare/cloudflare-go v0.68.0 h1:YmCaLt0lUqZwxJp6fTrFX2fjb0zQZoKS8
 github.com/cloudflare/cloudflare-go v0.68.0/go.mod h1:b6oSYwhXmZUdaF83Od/uefT092M41HHis/z6JFsT/kw=
 github.com/cloudflare/cloudflare-go v0.69.0 h1:DHRjCQyM0p4qd3e0t3wnUNtRso1BQPUe4BtMAxZjKqY=
 github.com/cloudflare/cloudflare-go v0.69.0/go.mod h1:A6gZktcMokwEgzoAP4BbVDoUU7VorNFAU7FzfIejVF8=
+github.com/cloudflare/cloudflare-go v0.70.0 h1:4opGbUygM8DjirUuaz23jn3akuAcnOCEx+0nQtQEcFo=
+github.com/cloudflare/cloudflare-go v0.70.0/go.mod h1:VW6GuazkaZ4xEDkFt24lkXQUsE8q7BiGqDniC2s8WEM=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
@@ -78,6 +80,8 @@ github.com/infinitybotlist/sysmanage-web v0.0.0-20230620103505-257fef999737 h1:9
 github.com/infinitybotlist/sysmanage-web v0.0.0-20230620103505-257fef999737/go.mod h1:kLjMWTbsgY43/SBEOTHm0QNe3c+ySjEH8ppIAQd+r7k=
 github.com/infinitybotlist/sysmanage-web v0.0.0-20230620114731-c112d0dffff8 h1:LhXEbuMfMd+nLeJFKmrb5uM4sNno77roIsCPjjkiRXg=
 github.com/infinitybotlist/sysmanage-web v0.0.0-20230620114731-c112d0dffff8/go.mod h1:kLjMWTbsgY43/SBEOTHm0QNe3c+ySjEH8ppIAQd+r7k=
+github.com/infinitybotlist/sysmanage-web v0.0.0-20230621143149-2daae2a63ca6 h1:j2Elg/duRRPGKhXNUe3YCWvH3IjjvoXHySWzVslm6Vo=
+github.com/infinitybotlist/sysmanage-web v0.0.0-20230621143149-2daae2a63ca6/go.mod h1:kLjMWTbsgY43/SBEOTHm0QNe3c+ySjEH8ppIAQd+r7k=
 github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 h1:BQSFePA1RWJOlocH6Fxy8MmwDt+yVQYULKfN0RoTN8A=
 github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99/go.mod h1:1lJo3i6rXxKeerYnT8Nvf0QmHCRC1n8sfWVwXF2Frvo=
 github.com/kevinburke/ssh_config v1.2.0 h1:x584FjTGwHzMwvHx18PXxbBVzfnxogHaAReU4gf13a4=
