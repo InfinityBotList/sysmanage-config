@@ -143,4 +143,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:1234
           opts: []
+    - id: spider-staging
+      names:
+        - spider-staging
+      comment: Popplio (staging)
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:8083
+          opts: []
 real_name: ""
