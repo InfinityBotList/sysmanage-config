@@ -1,7 +1,7 @@
 cmd: /root/Popplio/staging/popplio
 dir: /root/Popplio/staging
 target: ibl
-description: Popplio (Production)
+description: Popplio (Staging)
 after: ibl-maint
 broken: false
 user: ""
