@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /root/LinkCord/ModBot
+target: ibl
+description: Link Cord Support/Moderation Bot
+after: ibl-maint
+broken: false
+user: ""
+group: ""
