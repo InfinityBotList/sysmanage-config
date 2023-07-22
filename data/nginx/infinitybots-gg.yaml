@@ -152,4 +152,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:8083
           opts: []
+    - id: ashfur
+      names:
+        - ashfur
+      comment: ashfur data agg
+      broken: false
+      locations:
+        - path: /
+          proxy: 127.0.0.1:4859
+          opts: []
 real_name: ""
