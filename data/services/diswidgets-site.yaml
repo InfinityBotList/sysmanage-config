@@ -4,3 +4,14 @@ target: diswidgets
 description: DisWidgets Site
 after: ibl-maint
 broken: true
+user: ""
+group: ""
+git:
+    repo: https://github.com/DisWidgets/Website
+    ref: refs/heads/master
+    build_commands:
+        - npm install
+        - npm run build
+    env: {}
+    allow_dirty: true
+    config_files: []
