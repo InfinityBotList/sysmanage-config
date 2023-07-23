@@ -3,7 +3,7 @@ dir: /root/DisWidgets/Website
 target: diswidgets
 description: DisWidgets Site
 after: ibl-maint
-broken: true
+broken: false
 user: ""
 group: ""
 git:
