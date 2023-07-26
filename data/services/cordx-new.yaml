@@ -1,6 +1,16 @@
-cmd: "/usr/bin/npm start"
-dir: "/root/CordX/Beta"
+cmd: /usr/bin/npm start
+dir: /root/CordX/Beta
 target: cordx
-after: ibl-maint
 description: CordX Beta Site
-broken: true # MongoDB issues
+after: ibl-maint
+broken: false
+user: ""
+group: ""
+git:
+    repo: https://github.com/CordXApp/Beta
+    ref: refs/heads/master
+    build_commands:
+        - npm install
+    env: {}
+    allow_dirty: false
+    config_files: []
