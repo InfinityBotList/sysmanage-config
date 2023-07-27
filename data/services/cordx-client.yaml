@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /root/CordX/Client
+target: cordx
+description: Cordx discord bot
+after: ibl-maint
+broken: false
+user: ""
+group: ""
