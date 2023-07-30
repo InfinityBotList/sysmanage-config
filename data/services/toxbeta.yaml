@@ -3,6 +3,15 @@ dir: /root/ToxMod/BetaSite
 target: toxmod
 description: ToxMod Beta Site
 after: ibl-maint
-broken: true
+broken: false
 user: ""
 group: ""
+git:
+    repo: https://github.com/Tox-Mod/Website
+    ref: refs/heads/master
+    build_commands:
+        - npm install
+        - npm run build
+    env: {}
+    allow_dirty: false
+    config_files: []
