@@ -173,5 +173,5 @@ servers:
             - sendfile on;
             - sendfile_max_chunk 1m;
             - autoindex on;
-            - alias /root/vivum/build/;
+            - alias /vivum/build/;
 real_name: ""
