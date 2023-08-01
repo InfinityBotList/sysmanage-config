@@ -161,4 +161,17 @@ servers:
         - path: /
           proxy: http://127.0.0.1:4859
           opts: []
+    - id: vivumpreview
+      names:
+        - vivum-preview
+      comment: VIVUM Preview
+      broken: false
+      locations:
+        - path: /
+          proxy: ""
+          opts:
+            - sendfile on;
+            - sendfile_max_chunk 1m;
+            - autoindex on;
+            - alias /root/vivum/build/;
 real_name: ""
