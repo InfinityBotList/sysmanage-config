@@ -174,7 +174,7 @@ servers:
             - sendfile_max_chunk 1m;
             - autoindex on;
             - alias /vivum/build/;
-    - id: trace
+    - id: silverpelt
       names:
         - trace
       comment: Sentry
