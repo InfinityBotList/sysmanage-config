@@ -1,1 +1,10 @@
 servers:
+    - id: prod
+      names:
+        - '@root'
+        - api
+        - dev
+      comment: Production website
+      broken: false
+      locations: []
+real_name: ""
