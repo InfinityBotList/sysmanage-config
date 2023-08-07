@@ -174,4 +174,13 @@ servers:
             - sendfile_max_chunk 1m;
             - autoindex on;
             - alias /vivum/build/;
+    - id: trace
+      names:
+        - trace
+      comment: Sentry
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:9000
+          opts: []
 real_name: ""
