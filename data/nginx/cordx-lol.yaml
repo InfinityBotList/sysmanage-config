@@ -2,9 +2,10 @@ servers:
     - id: prod
       names:
         - '@root'
-        - api
-        - dev
       comment: Production website
       broken: false
-      locations: []
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4220
+          opts: []
 real_name: ""
