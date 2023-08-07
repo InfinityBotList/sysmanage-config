@@ -17,4 +17,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:4200
           opts: []
+    - id: api
+      names:
+        - api
+      comment: Cordx api
+      broken: false
+      locations:
+        - path: /
+          proxy: https:/127.0.0.1:4985
+          opts: []
 real_name: ""
