@@ -8,4 +8,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:4220
           opts: []
+    - id: dev
+      names:
+        - dev
+      comment: Development site
+      broken: false
+      locations:
+        - path: /
+          proxy: http:127.0.0.1:4200
+          opts: []
 real_name: ""
