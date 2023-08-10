@@ -4,6 +4,7 @@ import (
 	"sysmanage-config/plugins/updprod"
 
 	"github.com/infinitybotlist/sysmanage-web/plugins/actions"
+	"github.com/infinitybotlist/sysmanage-web/plugins/authdp"
 	"github.com/infinitybotlist/sysmanage-web/plugins/frontend"
 	"github.com/infinitybotlist/sysmanage-web/plugins/logger"
 	"github.com/infinitybotlist/sysmanage-web/plugins/nginx"
@@ -16,14 +17,19 @@ var meta = types.ServerMeta{
 	ConfigVersion: 1,
 	Plugins: []types.Plugin{
 		{
-			ID: nginx.ID,
+			ID:      authdp.ID,
+			Init:    authdp.InitPlugin,
+			Preload: authdp.Preload,
+		},
+		{
+			ID:   nginx.ID,
 			Init: nginx.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
 			},
 		},
 		{
-			ID: systemd.ID,
+			ID:   systemd.ID,
 			Init: systemd.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
@@ -31,11 +37,11 @@ var meta = types.ServerMeta{
 		},
 		// Persist has no frotend, it is a backend plugin
 		{
-			ID: persist.ID,
+			ID:   persist.ID,
 			Init: persist.InitPlugin,
 		},
 		{
-			ID: actions.ID,
+			ID:   actions.ID,
 			Init: actions.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
@@ -43,15 +49,15 @@ var meta = types.ServerMeta{
 		},
 		// Frontend has no frontend, it is a backend plugin
 		{
-			ID: frontend.ID,
+			ID:   frontend.ID,
 			Init: frontend.InitPlugin,
 		},
 		{
-			ID: updprod.ID,
+			ID:   updprod.ID,
 			Init: updprod.InitPlugin,
 		},
 		{
-			ID: logger.ID,
+			ID:   logger.ID,
 			Init: logger.InitPlugin,
 		},
 	},

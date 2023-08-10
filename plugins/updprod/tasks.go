@@ -8,7 +8,6 @@ import (
 	"net/http"
 
 	"github.com/infinitybotlist/sysmanage-web/core/logger"
-	"github.com/infinitybotlist/sysmanage-web/core/state"
 )
 
 func authReq(client http.Client, method, url string, body io.Reader) (*http.Response, error) {
@@ -18,8 +17,8 @@ func authReq(client http.Client, method, url string, body io.Reader) (*http.Resp
 		return nil, err
 	}
 
-	req.SetBasicAuth(GithubUsername, state.Config.GithubPat)
-	req.Header.Set("User-Agent", GithubUsername)
+	req.SetBasicAuth(githubUsername, githubPat)
+	req.Header.Set("User-Agent", githubUsername)
 
 	return client.Do(req)
 }
@@ -31,7 +30,7 @@ func deleteBranchProtection(taskId string, client http.Client) bool {
 		"DELETE",
 		fmt.Sprintf(
 			"https://api.github.com/repos/%s/branches/production/protection",
-			GitRepo,
+			gitRepo,
 		),
 		nil,
 	)
@@ -62,7 +61,7 @@ func deleteProdBranch(taskId string, client http.Client) bool {
 		"DELETE",
 		fmt.Sprintf(
 			"https://api.github.com/repos/%s/git/refs/heads/production",
-			GitRepo,
+			gitRepo,
 		),
 		nil,
 	)
@@ -104,7 +103,7 @@ func getMainBranchSHA(taskID string, client http.Client) string {
 		"GET",
 		fmt.Sprintf(
 			"https://api.github.com/repos/%s/git/refs/heads/master",
-			GitRepo,
+			gitRepo,
 		),
 		nil,
 	)
@@ -158,7 +157,7 @@ func createProdBranch(taskId string, sha string, client http.Client) bool {
 		"POST",
 		fmt.Sprintf(
 			"https://api.github.com/repos/%s/git/refs",
-			GitRepo,
+			gitRepo,
 		),
 		bytes.NewReader(body),
 	)
@@ -217,7 +216,7 @@ func createBranchProtection(taskId string, client http.Client) bool {
 		"PUT",
 		fmt.Sprintf(
 			"https://api.github.com/repos/%s/branches/production/protection",
-			GitRepo,
+			gitRepo,
 		),
 		bytes.NewReader(body),
 	)
@@ -250,7 +249,7 @@ func enableAdminEnforce(taskId string, client http.Client) bool {
 		"POST",
 		fmt.Sprintf(
 			"https://api.github.com/repos/%s/branches/production/protection/enforce_admins",
-			GitRepo,
+			gitRepo,
 		),
 		nil,
 	)
@@ -281,7 +280,7 @@ func ackVercelDeployHook(taskId string, client http.Client) bool {
 	// Ack Vercel deploy hook
 	req, err := http.NewRequest(
 		"POST",
-		VercelDeployHook,
+		vercelDeployHook,
 		nil,
 	)
 
@@ -289,7 +288,7 @@ func ackVercelDeployHook(taskId string, client http.Client) bool {
 		logger.LogMap.Add(taskId, "FATAL: Failed to create request: "+err.Error(), true)
 	}
 
-	req.Header.Set("User-Agent", GithubUsername)
+	req.Header.Set("User-Agent", githubUsername)
 
 	resp, err := client.Do(req)
 

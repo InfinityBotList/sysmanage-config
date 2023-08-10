@@ -11,33 +11,40 @@ import (
 
 const ID = "updprod"
 
-var GitRepo string
-var GithubUsername string
-var VercelDeployHook string
+var gitRepo string
+var githubUsername string
+var vercelDeployHook string
+var githubPat string
 
 func InitPlugin(c *types.PluginConfig) error {
 	opts, err := plugins.GetConfig(c.Name)
 
 	if err != nil {
-		panic(err)
+		return err
 	}
 
-	GitRepo, err = opts.GetString("git_repo")
+	gitRepo, err = opts.GetString("git_repo")
 
 	if err != nil {
-		panic(err)
+		return err
 	}
 
-	GithubUsername, err = opts.GetString("github_username")
+	githubUsername, err = opts.GetString("github_username")
 
 	if err != nil {
-		panic(err)
+		return err
 	}
 
-	VercelDeployHook, err = opts.GetString("vercel_deploy_hook")
+	githubPat, err = opts.GetString("github_pat")
 
 	if err != nil {
-		panic(err)
+		return err
+	}
+
+	vercelDeployHook, err = opts.GetString("vercel_deploy_hook")
+
+	if err != nil {
+		return err
 	}
 
 	actions.RegisterActions(&actions.Action{

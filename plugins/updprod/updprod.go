@@ -9,7 +9,6 @@ import (
 	"time"
 
 	"github.com/infinitybotlist/sysmanage-web/core/logger"
-	"github.com/infinitybotlist/sysmanage-web/core/state"
 )
 
 func updateProdTask(taskId string) {
@@ -42,7 +41,7 @@ func updateProdTask(taskId string) {
 		"DELETE",
 		fmt.Sprintf(
 			"https://api.github.com/repos/%s/branches/production/protection/enforce_admins",
-			GitRepo,
+			gitRepo,
 		),
 		nil,
 	)
@@ -52,8 +51,8 @@ func updateProdTask(taskId string) {
 		return
 	}
 
-	req.SetBasicAuth(GithubUsername, state.Config.GithubPat)
-	req.Header.Set("User-Agent", GithubUsername)
+	req.SetBasicAuth(githubUsername, githubPat)
+	req.Header.Set("User-Agent", githubUsername)
 
 	resp, err := client.Do(req)
 
