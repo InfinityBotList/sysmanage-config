@@ -5,14 +5,14 @@ origin_cert_path: /certs/origin-pull-ca.pem # Path to the origin CA cert if any
 common: |
     # Maint code
     proxy_intercept_errors on;
-    error_page   502 503 504 =408 /maint/page;
+    error_page   502 503 504 = /maint/page?method=$request_method;
     location = /maint/page {
         proxy_http_version 1.1;
         proxy_set_header Host $http_host;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_method $request_method;
         proxy_redirect off;
         client_max_body_size 100M;
         proxy_pass http://127.0.0.1:1292;
+        internal;
     }
