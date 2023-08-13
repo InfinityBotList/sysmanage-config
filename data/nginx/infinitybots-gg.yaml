@@ -179,4 +179,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:3939
           opts: []
+    - id: sysmanage-example
+      names:
+        - sysmanage-example
+      comment: sysmanage-example
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:29393
+          opts: []
 real_name: ""
