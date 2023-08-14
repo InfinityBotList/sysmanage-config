@@ -1,8 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/CordX/Next
+dir: /home/cordx/Beta-Site
 target: cordx
 description: CordX website made in nextjs
 after: ibl-maint
 broken: false
-user: ""
-group: ""
+user: cordx
+group: cordx
