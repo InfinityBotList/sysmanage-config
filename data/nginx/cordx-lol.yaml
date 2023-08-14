@@ -26,4 +26,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:4985
           opts: []
+    - id: beta
+      names:
+        - beta
+      comment: CordX Beta in Nextjs
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4942
+          opts: []
 real_name: ""
