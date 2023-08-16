@@ -76,8 +76,6 @@ servers:
             - sendfile_max_chunk 1m;
             - etag on;
             - autoindex on;
-            - xslt_stylesheet /etc/nginx/cdn.xslt;
-            - autoindex_format xml;
             - add_header Access-Control-Allow-Origin *;
             - alias /iblcdn/public/;
         - path: /json/
