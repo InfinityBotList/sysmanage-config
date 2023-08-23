@@ -9,9 +9,9 @@ servers:
         - path: /
           proxy: http://127.0.0.1:8081
           opts: []
-    - id: arcadia-rpc
+    - id: arcadia-prod--panel-api
       names:
-        - rpc
+        - prod--panel-api
       comment: Arcadia RPC
       broken: false
       locations:

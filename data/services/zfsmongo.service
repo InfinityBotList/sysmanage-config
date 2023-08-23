@@ -1,6 +1,6 @@
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c 'mount /dev/zvol/silverpelt/nightheart /silverpelt/nightheart/; zfs load-key silverpelt/sunbeam; zfs mount silverpelt/sunbeam; chown -Rv postgres:postgres /silverpelt/sunbeam/; chown -Rv mongodb /silverpelt/nightheart/mongodb/; chown -Rv mysql /silverpelt/nightheart/mysql/; systemctl restart mongod; systemctl restart postgresql; systemctl restart mysql'
+ExecStart=/bin/bash -c 'mount /dev/zvol/silverpelt/nightheart /silverpelt/nightheart/; zfs load-key silverpelt/sunbeam; zfs mount silverpelt/sunbeam; chown -Rv postgres:postgres /silverpelt/sunbeam/; chown -Rv mongodb /silverpelt/nightheart/mongodb/; chown -Rv mysql /silverpelt/mysql/mysql/; systemctl restart mongod; systemctl restart postgresql; systemctl restart mysql'
 User=root
 Group=root
 WorkingDirectory=/root
