@@ -35,4 +35,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:4942
           opts: []
+    - id: pastes
+      names:
+        - pastes
+      comment: CordX paste bin knock off
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:7777
+          opts: []
 real_name: ""
