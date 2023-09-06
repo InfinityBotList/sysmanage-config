@@ -1,4 +1,4 @@
-cmd: /usr/local/bin/yarn start
+cmd: /usr/bin/yarn start
 dir: /home/cordx/Beta-Site
 target: cordx
 description: cordx website rewritten using nextjs
