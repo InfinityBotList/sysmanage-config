@@ -1,5 +1,8 @@
-cmd: "/usr/bin/npm start"
-dir: "/root/ToxMod/Website"
+cmd: /usr/bin/npm start
+dir: /home/toxmod/Website
 target: toxmod
-after: void
 description: ToxMod Site
+after: void
+broken: false
+user: toxmod
+group: toxmod
