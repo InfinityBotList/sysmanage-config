@@ -1,5 +1,8 @@
 cmd: /root/ts-webhook-adapter/ts-webhook-adapter
 dir: /root/ts-webhook-adapter
-target: ibl
-after: ibl-maint
+target: core
 description: IBL Endpoint Security - Tailscale Logs
+after: ibl-maint
+broken: false
+user: ""
+group: ""
