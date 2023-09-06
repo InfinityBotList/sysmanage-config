@@ -1,8 +1,8 @@
-cmd: /root/Popplio/staging/popplio
-dir: /root/Popplio/staging
+cmd: /home/ibl/Popplio/staging/popplio
+dir: /home/ibl/Popplio/staging
 target: ibl
 description: Popplio (Staging)
 after: ibl-maint
 broken: false
-user: ""
-group: ""
+user: ibl
+group: ibl
