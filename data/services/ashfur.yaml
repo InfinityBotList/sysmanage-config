@@ -1,8 +1,0 @@
-cmd: /root/ashfur/ashfur
-dir: /root/ashfur
-target: ibl
-description: Ashfur Misc Data Handler
-after: void
-broken: false
-user: ""
-group: ""
