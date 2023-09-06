@@ -1,14 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/NARC/API
+dir: /home/narc/API
 target: narc
 description: NARC Scripts Site
 after: void
 broken: false
-git:
-    repo: https://github.com/NARC-FiveM/Script-API
-    ref: refs/heads/master
-    build_commands:
-        - npm install
-    env: {}
-    allow_dirty: true
-    config_files: []
+user: narc
+group: narc
