@@ -1,5 +1,8 @@
-cmd: "/root/htmlsanitize/htmlsanitize"
-dir: "/root/htmlsanitize"
+cmd: /home/ibl/htmlsanitize/htmlsanitize
+dir: /home/ibl/htmlsanitize
 target: ibl
-after: void
 description: Internal HTML Sanitization Service
+after: void
+broken: false
+user: ibl
+group: ibl
