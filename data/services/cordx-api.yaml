@@ -1,8 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/CordX/API
+dir: /home/cordx/API
 target: cordx
 description: Cordx api
 after: void
 broken: false
-user: ""
-group: ""
+user: cordx
+group: cordx
