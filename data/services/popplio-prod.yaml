@@ -1,8 +1,8 @@
-cmd: /root/Popplio/prod/popplio
-dir: /root/Popplio/prod
+cmd: /home/ibl/Popplio/prod/popplio
+dir: /home/ibl/Popplio/prod
 target: ibl
 description: Popplio (Production)
 after: ibl-maint
 broken: false
-user: ""
-group: ""
+user: ibl
+group: ibl
