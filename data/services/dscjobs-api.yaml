@@ -1,15 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/DscJobsAPI
+dir: /home/jobcord/DscJobsAPI
 target: dscjobs
 description: DscJobs API
 after: void
 broken: false
-git:
-    repo: https://github.com/DscJobs/API
-    ref: refs/heads/master
-    build_commands:
-        - npm install
-    env: {}
-    allow_dirty: false
-    config_files:
-        - .env
+user: jobcord
+group: jobcord
