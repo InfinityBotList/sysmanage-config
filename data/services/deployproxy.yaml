@@ -2,7 +2,7 @@ cmd: /root/deployproxy/deployproxy
 dir: /root/deployproxy
 target: core
 description: DeployProxy [v4]
-after: void
+after: postgres
 broken: false
 user: ""
 group: ""
