@@ -1,5 +1,8 @@
-cmd: "/usr/bin/ibl proxy"
-dir: "/iblcdn"
-target: ibl
+cmd: /usr/bin/ibl proxy
+dir: /iblcdn
+target: core
+description: Core Discord Base Proxy
 after: void
-description: Core IBL Base Proxy [v4]
+broken: false
+user: ""
+group: ""
