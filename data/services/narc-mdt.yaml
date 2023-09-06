@@ -1,14 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/NARC/CAD-MDT
+dir: /home/narc/CAD-MDT
 target: narc
 description: Narc Computer Aided Dispatch
 after: void
 broken: false
-git:
-    repo: https://github.com/NARC-FiveM/CAD-MDT
-    ref: refs/heads/master
-    build_commands:
-        - npm install
-    env: {}
-    allow_dirty: false
-    config_files: []
+user: narc
+group: narc
