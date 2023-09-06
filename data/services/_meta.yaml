@@ -29,3 +29,5 @@ targets:
       description: North America Roleplay Community
     - name: core
       description: Core infrastructure
+    - name: linkcord
+      description: LinkCord project
