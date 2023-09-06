@@ -1,16 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/CordX/Client
+dir: /home/cordx/Client
 target: cordx
 description: Cordx discord bot
 after: void
 broken: false
-user: ""
-group: ""
-git:
-    repo: https://github.com/CordXApp/Client
-    ref: refs/heads/master
-    build_commands:
-        - npm install
-    env: {}
-    allow_dirty: false
-    config_files: []
+user: cordx
+group: cordx
