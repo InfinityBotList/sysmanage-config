@@ -1,5 +1,8 @@
-cmd: "/root/github-v2/bot"
-dir: "/root/github-v2"
+cmd: /home/gitlogs/github-v2/bot
+dir: /home/gitlogs/github-v2
 target: github
-after: void
 description: Github Bot [v2]
+after: void
+broken: false
+user: gitlogs
+group: gitlogs
