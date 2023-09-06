@@ -1,14 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/ChillCord/Website
+dir: /home/chillcord/Website
 target: chillcord
 description: ChillCord Website
 after: void
 broken: true
-git:
-    repo: https://github.com/Chill-Bot-Dev/ChillCord-Bot
-    ref: refs/heads/main
-    build_commands:
-        - npm install
-    env: {}
-    allow_dirty: false
-    config_files: []
+user: chillcord
+group: chillcord
