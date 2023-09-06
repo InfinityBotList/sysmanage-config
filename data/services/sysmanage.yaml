@@ -1,6 +1,6 @@
 cmd: /root/sysmanage-config/sysmanage
 dir: /root/sysmanage-config
-target: ibl
+target: core
 description: System Management [v4]
 after: ibl-maint
 broken: false
