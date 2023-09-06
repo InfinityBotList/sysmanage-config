@@ -1,15 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/ArtieAI
+dir: /home/artie/ArtieAI
 target: artie
 description: Artie the AI
 after: void
 broken: false
-git:
-    repo: https://github.com/TheRealToxicDev/ArtieAI
-    ref: refs/heads/master
-    build_commands:
-        - npm install
-    env: {}
-    allow_dirty: false
-    config_files:
-        - .env
+user: artie
+group: artie
