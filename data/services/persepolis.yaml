@@ -1,6 +1,8 @@
-cmd: /root/persepolis/persepolis
-dir: /root/persepolis
+cmd: /home/ibl/persepolis/persepolis
+dir: /home/ibl/persepolis
 target: ibl
 description: Onboarding bot [v4]
 after: void
 broken: false
+user: ibl
+group: ibl
