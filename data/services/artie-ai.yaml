@@ -2,7 +2,7 @@ cmd: /usr/bin/npm start
 dir: /root/ArtieAI
 target: artie
 description: Artie the AI
-after: ibl-maint
+after: void
 broken: false
 git:
     repo: https://github.com/TheRealToxicDev/ArtieAI

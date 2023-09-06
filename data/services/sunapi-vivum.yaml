@@ -2,7 +2,7 @@ cmd: /root/sunbeam/api/api
 dir: /root/sunbeam/api
 target: rootpersonal
 description: Sunbeam Vivum API
-after: ibl-maint
+after: void
 broken: true
 user: ""
 group: ""

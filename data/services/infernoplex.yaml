@@ -2,5 +2,5 @@ cmd: /root/infernoplex/infernoplex
 dir: /root/infernoplex
 target: ibl
 description: Server Listing Service
-after: ibl-maint
+after: void
 broken: false

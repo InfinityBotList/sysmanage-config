@@ -2,7 +2,7 @@ cmd: /usr/bin/npm start
 dir: /root/ToxMod/BetaSite
 target: toxmod
 description: ToxMod Beta Site
-after: ibl-maint
+after: void
 broken: false
 user: ""
 group: ""

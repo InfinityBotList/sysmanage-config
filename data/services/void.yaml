@@ -1,0 +1,8 @@
+cmd: /root/void/void
+dir: /root/void
+target: core
+description: IBL Maintenance Service
+after: zfsmongo
+broken: false
+user: ""
+group: ""

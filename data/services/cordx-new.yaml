@@ -2,7 +2,7 @@ cmd: /usr/bin/npm start
 dir: /root/CordX/Beta
 target: cordx
 description: CordX Beta Site
-after: ibl-maint
+after: void
 broken: false
 user: ""
 group: ""

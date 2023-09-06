@@ -1,5 +1,5 @@
 cmd: "/usr/bin/npm start"
 dir: "/root/ToxMod/API"
 target: toxmod
-after: ibl-maint
+after: void
 description: ToxMod API

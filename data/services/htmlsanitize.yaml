@@ -1,5 +1,5 @@
 cmd: "/root/htmlsanitize/htmlsanitize"
 dir: "/root/htmlsanitize"
 target: ibl
-after: ibl-maint
+after: void
 description: Internal HTML Sanitization Service

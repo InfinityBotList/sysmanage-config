@@ -2,7 +2,7 @@ cmd: /root/NARC/CAD-API/cad-api
 dir: /root/NARC/CAD-API
 target: narc
 description: NARC CAD API
-after: ibl-maint
+after: void
 broken: false
 git:
     repo: https://github.com/NARC-FiveM/CAD-API

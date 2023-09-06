@@ -1,5 +1,5 @@
 cmd: "/usr/bin/ibl proxy"
 dir: "/iblcdn"
 target: ibl
-after: ibl-maint
+after: void
 description: Core IBL Base Proxy [v4]

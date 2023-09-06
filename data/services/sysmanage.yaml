@@ -2,7 +2,7 @@ cmd: /root/sysmanage-config/sysmanage
 dir: /root/sysmanage-config
 target: core
 description: System Management [v4]
-after: ibl-maint
+after: void
 broken: false
 user: ""
 group: ""

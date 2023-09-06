@@ -2,7 +2,7 @@ cmd: /usr/bin/npm start
 dir: /root/NARC/API
 target: narc
 description: NARC Scripts Site
-after: ibl-maint
+after: void
 broken: false
 git:
     repo: https://github.com/NARC-FiveM/Script-API

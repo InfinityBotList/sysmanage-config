@@ -1,5 +1,5 @@
 cmd: "/root/skynet/skynet"
 dir: "/root/skynet"
 target: skynet
-after: ibl-maint
+after: void
 description: Skynet

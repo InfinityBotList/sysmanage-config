@@ -2,7 +2,7 @@ cmd: /root/arcadia/bot
 dir: /root/arcadia
 target: ibl
 description: Arcadia [v4]
-after: ibl-maint
+after: void
 broken: false
 user: ""
 group: ""

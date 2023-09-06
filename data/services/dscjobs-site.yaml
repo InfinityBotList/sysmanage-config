@@ -2,7 +2,7 @@ cmd: /usr/bin/npm start
 dir: /root/DscJobs
 target: dscjobs
 description: DscJobs Website
-after: ibl-maint
+after: void
 broken: false
 git:
     repo: https://github.com/DscJobs/OldWebsite

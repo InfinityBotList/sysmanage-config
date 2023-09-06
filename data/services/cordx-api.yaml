@@ -2,7 +2,7 @@ cmd: /usr/bin/npm start
 dir: /root/CordX/API
 target: cordx
 description: Cordx api
-after: ibl-maint
+after: void
 broken: false
 user: ""
 group: ""
