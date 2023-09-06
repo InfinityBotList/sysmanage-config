@@ -1,17 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/ToxMod/BetaSite
+dir: /home/toxmod/ToxMod/BetaSite
 target: toxmod
 description: ToxMod Beta Site
 after: void
 broken: false
-user: ""
-group: ""
-git:
-    repo: https://github.com/Tox-Mod/Website
-    ref: refs/heads/master
-    build_commands:
-        - npm install
-        - npm run build
-    env: {}
-    allow_dirty: false
-    config_files: []
+user: toxmod
+group: toxmod
