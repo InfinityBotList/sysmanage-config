@@ -27,3 +27,5 @@ targets:
       description: Rootspring's personal stuff (vivum bots)
     - name: narc
       description: North America Roleplay Community
+    - name: core
+      description: Core infrastructure
