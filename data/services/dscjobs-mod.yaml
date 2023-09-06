@@ -1,16 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/DscJobsMod
+dir: /home/jobcord/DscJobsMod
 target: dscjobs
 description: DscJobs Moderation Bot
 after: void
 broken: false
-git:
-    repo: https://github.com/DscJobs/Mod
-    ref: refs/heads/main
-    build_commands:
-        - npm install
-        - npm run build
-    env: {}
-    allow_dirty: false
-    config_files:
-        - config.toml
+user: jobcord
+group: jobcord
