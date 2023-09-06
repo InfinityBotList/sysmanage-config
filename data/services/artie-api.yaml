@@ -1,14 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /root/ArtieAPI
+dir: /home/artie/ArtieAPI
 target: artie
 description: Artie API
 after: void
 broken: false
-git:
-    repo: https://github.com/Artie-AI/API
-    ref: refs/heads/master
-    build_commands:
-        - npm install
-    env: {}
-    allow_dirty: false
-    config_files: []
+user: artie
+group: artie
