@@ -1,6 +1,8 @@
-cmd: /root/infernoplex/infernoplex
-dir: /root/infernoplex
+cmd: /home/ibl/infernoplex/infernoplex
+dir: /home/ibl/infernoplex
 target: ibl
 description: Server Listing Service
 after: void
 broken: false
+user: ibl
+group: ibl
