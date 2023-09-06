@@ -1,8 +1,0 @@
-cmd: /root/alpine/sysmanage
-dir: /root/alpine
-target: ibl
-description: Infinity Development Portal
-after: void
-broken: false
-user: ""
-group: ""
