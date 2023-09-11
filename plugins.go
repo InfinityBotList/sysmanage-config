@@ -3,8 +3,8 @@ package main
 import (
 	"sysmanage-config/plugins/updprod"
 
-	"github.com/infinitybotlist/sysmanage-web/core/state"
 	"github.com/infinitybotlist/sysmanage-web/plugins/actions"
+	"github.com/infinitybotlist/sysmanage-web/plugins/authdp"
 	"github.com/infinitybotlist/sysmanage-web/plugins/frontend"
 	"github.com/infinitybotlist/sysmanage-web/plugins/logger"
 	"github.com/infinitybotlist/sysmanage-web/plugins/nginx"
@@ -16,18 +16,18 @@ import (
 var meta = types.ServerMeta{
 	ConfigVersion: 1,
 	Plugins: []types.Plugin{
-		/*{
+		{
 			ID:      authdp.ID,
 			Init:    authdp.InitPlugin,
 			Preload: authdp.Preload,
-		},*/
-		{
+		},
+		/*{
 			ID: "authdummy",
 			Init: func(c *types.PluginConfig) error {
 				state.AuthPlugins = append(state.AuthPlugins, "authdummy")
 				return nil
 			},
-		},
+		},*/
 		{
 			ID:   nginx.ID,
 			Init: nginx.InitPlugin,
