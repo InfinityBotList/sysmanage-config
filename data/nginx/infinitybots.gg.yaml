@@ -77,7 +77,7 @@ servers:
             - etag on;
             - autoindex on;
             - add_header Access-Control-Allow-Origin *;
-            - alias /home/ibl/iblcdn/public/;
+            - alias /iblcdn/public/;
         - path: /json/
           proxy: ""
           opts:
@@ -85,7 +85,7 @@ servers:
             - sendfile_max_chunk 1m;
             - autoindex on;
             - add_header Access-Control-Allow-Origin *;
-            - alias /home/ibl/iblcdn/public/;
+            - alias /iblcdn/public/;
             - autoindex_format json;
     - id: tailscale
       names:
