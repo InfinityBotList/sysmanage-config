@@ -1,8 +1,8 @@
-cmd: /root/void/void
-dir: /root/void
+cmd: /home/core/void/void
+dir: /home/core/void
 target: core
 description: IBL Maintenance Service
 after: zfsmongo
 broken: false
-user: ""
-group: ""
+user: "core"
+group: "core"

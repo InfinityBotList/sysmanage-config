@@ -1,8 +1,8 @@
-cmd: /root/deployproxy/deployproxy
-dir: /root/deployproxy
+cmd: /home/core/deployproxy/deployproxy
+dir: /home/core/deployproxy
 target: core
-description: DeployProxy [v4]
+description: DeployProxy
 after: postgres
 broken: false
-user: ""
-group: ""
+user: "core"
+group: "core"
