@@ -77,7 +77,7 @@ servers:
             - etag on;
             - autoindex on;
             - add_header Access-Control-Allow-Origin *;
-            - alias /silverpelt/cdn/ibl;
+            - alias /silverpelt/cdn/ibl/public;
         - path: /json/
           proxy: ""
           opts:
