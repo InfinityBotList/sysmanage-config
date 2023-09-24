@@ -77,7 +77,7 @@ servers:
             - etag on;
             - autoindex on;
             - add_header Access-Control-Allow-Origin *;
-            - alias /silverpelt/cdn/ibl/public/;
+            - alias /silverpelt/cdn/ibl/;
         - path: /json/
           proxy: ""
           opts:
@@ -85,7 +85,7 @@ servers:
             - sendfile_max_chunk 1m;
             - autoindex on;
             - add_header Access-Control-Allow-Origin *;
-            - alias /iblcdn/public/;
+            - alias /silverpelt/cdn/ibl/;
             - autoindex_format json;
     - id: tailscale
       names:
