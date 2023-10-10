@@ -36,10 +36,10 @@ servers:
         - path: /
           proxy: http://127.0.0.1:1234
           opts: []
-    - id: helpernode-metro
+    - id: sysmanage-orchard
       names:
-        - helpernode-metro
-      comment: Metro Sysmanage console
+        - sysmanage-orchard
+      comment: Orchard Sysmanage console
       broken: false
       locations:
         - path: /
