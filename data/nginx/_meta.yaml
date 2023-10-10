@@ -5,8 +5,8 @@ origin_cert_path: /certs/origin-pull-ca.pem # Path to the origin CA cert if any
 common: |
     # Maint code
     proxy_intercept_errors on;
-    error_page   502 503 504 = /_maint?method=$request_method&path=$request_uri;
-    location /_maint/ {
+    error_page   502 503 504 = /_maint?data=$request_method|$request_uri;
+    location = /_maint {
         proxy_http_version 1.1;
         proxy_set_header Host $http_host;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
