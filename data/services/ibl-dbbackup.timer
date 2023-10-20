@@ -9,4 +9,4 @@ OnCalendar=hourly
 Unit=ibl.target
 
 [Install]
-WantedBy=multiuser.target 
+WantedBy=multi-user.target 
