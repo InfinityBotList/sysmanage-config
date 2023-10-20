@@ -8,5 +8,4 @@ PrivateTmp=true
 
 [Unit]
 Description="MongoZFS trigger"
-After=network.target
 
