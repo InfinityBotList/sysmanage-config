@@ -1,9 +1,11 @@
 [Unit]
-Description=15min timer
+Description=DB Backup Timer
 
 [Timer]
 OnBootSec=15min
-OnCalendar=OnCalendar=*:0,15,30,45
+Persistent=true
+# OnUnitActiveSec=1h -- If monotonic is desired, maybe it is(?)
+OnCalendar=hourly
 Unit=ibl.target
 
 [Install]
