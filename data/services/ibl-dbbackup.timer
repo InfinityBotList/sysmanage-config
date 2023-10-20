@@ -1,0 +1,10 @@
+[Unit]
+Description=15min timer
+
+[Timer]
+OnBootSec=15min
+OnCalendar=OnCalendar=*:0,15,30,45
+Unit=ibl.target
+
+[Install]
+WantedBy=multiuser.target 

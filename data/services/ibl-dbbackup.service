@@ -1,0 +1,12 @@
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/mkiblbackup infinity /home/ibl/.dbcerts/public.pem
+User=ibl
+Group=ibl
+WorkingDirectory=/home/ibl
+PrivateTmp=true
+
+[Unit]
+Description="MongoZFS trigger"
+After=network.target
+
