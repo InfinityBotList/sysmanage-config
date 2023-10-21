@@ -8,5 +8,5 @@ PrivateTmp=true
 
 [Unit]
 Description="Backup script"
-After=network-online.target
+After=postgresql.service
 Wants=network-online.target
