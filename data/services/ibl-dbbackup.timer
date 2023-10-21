@@ -6,7 +6,8 @@ OnBootSec=15min
 Persistent=true
 # OnUnitActiveSec=1h -- If monotonic is desired, maybe it is(?)
 OnCalendar=hourly
-Unit=ibl-dbbackup-timer.target
+WakeSystem=true
+RandomizeDelaySec=20m
 
 [Install]
 WantedBy=timers.target
