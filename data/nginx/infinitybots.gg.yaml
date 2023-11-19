@@ -172,8 +172,8 @@ servers:
           opts: []
     - id: sysmanage-sentry
       names:
-        - sysmanage-example
-      comment: sysmanage-example
+        - sysmanage-sentry
+      comment: Sentry
       broken: false
       locations:
         - path: /
