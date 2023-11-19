@@ -161,15 +161,6 @@ servers:
         - path: /
           proxy: http://127.0.0.1:4859
           opts: []
-    - id: trace
-      names:
-        - trace
-      comment: Sentry
-      broken: false
-      locations:
-        - path: /
-          proxy: http://127.0.0.1:9000
-          opts: []
     - id: test-cname
       names:
         - test-cname
@@ -179,7 +170,7 @@ servers:
         - path: /
           proxy: http://127.0.0.1:3939
           opts: []
-    - id: sysmanage-example
+    - id: sysmanage-sentry
       names:
         - sysmanage-example
       comment: sysmanage-example
