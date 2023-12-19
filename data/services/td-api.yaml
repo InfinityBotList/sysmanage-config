@@ -1,0 +1,8 @@
+cmd: /home/narc/CAD-API/TDAPI
+dir: /home/narc/CAD-API
+target: ibl
+description: API for Toxic Development
+after: ibl-maint
+broken: false
+user: narc
+group: narc
