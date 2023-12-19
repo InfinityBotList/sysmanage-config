@@ -1,1 +1,11 @@
 servers:
+    - id: API
+      names:
+        - api
+      comment: Toxic Development API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:19394
+          opts: []
+real_name: ""
