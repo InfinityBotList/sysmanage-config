@@ -1,4 +1,4 @@
-cmd: /home/narc/CAD-API/TDAPI
+cmd: /usr/bin/yarn start
 dir: /home/narc/CAD-API
 target: ibl
 description: API for Toxic Development
