@@ -31,3 +31,5 @@ targets:
       description: Core infrastructure
     - name: linkcord
       description: LinkCord project
+    - name: elixir
+      description: Elixirs Projects
