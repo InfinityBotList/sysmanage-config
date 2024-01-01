@@ -1,0 +1,8 @@
+cmd: /usr/bin/yarn start
+dir: /home/narc/TDClient
+target: ibl
+description: Toxic Development support bot
+after: ibl-maint
+broken: false
+user: narc
+group: narc
