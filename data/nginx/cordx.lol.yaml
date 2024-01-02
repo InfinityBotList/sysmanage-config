@@ -44,4 +44,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:7777
           opts: []
+    - id: proxy
+      names:
+        - proxy
+      comment: CordX Proxy Server
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:10501
+          opts: []
 real_name: ""
