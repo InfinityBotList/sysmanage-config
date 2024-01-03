@@ -8,4 +8,13 @@ servers:
         - path: /
           proxy: http://localhost:19394
           opts: []
+    - id: CitizenAPI
+      names:
+        - citiapi
+      comment: Citizen Bot API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:10502
+          opts: []
 real_name: ""
