@@ -1,8 +1,8 @@
 cmd: /usr/bin/npm start
-dir: /home/narc/CitizenAPI
+dir: /home/cordx/CitizenAPI
 target: cordx
 description: Citizen Bot API
 after: ibl-maint
 broken: false
-user: narc
-group: narc
+user: cordx
+group: cordx
