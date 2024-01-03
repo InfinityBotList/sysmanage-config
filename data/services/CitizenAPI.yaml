@@ -1,5 +1,5 @@
 cmd: /usr/bin/npm start
-dir: /root/narc/CitizenAPI
+dir: /home/narc/CitizenAPI
 target: cordx
 description: Citizen Bot API
 after: ibl-maint
