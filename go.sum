@@ -169,6 +169,10 @@ github.com/infinitybotlist/sysmanage-web v0.0.0-20231020172423-2e94fa1fddeb h1:x
 github.com/infinitybotlist/sysmanage-web v0.0.0-20231020172423-2e94fa1fddeb/go.mod h1:D2eD3R7dcojWHdMFN0AkRHdL2XDiCSuxVp+cAdY97/E=
 github.com/infinitybotlist/sysmanage-web v0.0.0-20240104182559-86304e68002d h1:Iy+omAE/1R9uKliKuM2gL3wzkGYLTn6PbitWrMCYJUQ=
 github.com/infinitybotlist/sysmanage-web v0.0.0-20240104182559-86304e68002d/go.mod h1:D2eD3R7dcojWHdMFN0AkRHdL2XDiCSuxVp+cAdY97/E=
+github.com/infinitybotlist/sysmanage-web v0.0.0-20240104183326-a5fca5f2f5f7 h1:gUarTV6cOYUjNem+kwF/guopDWEhie3icRO61xajjyE=
+github.com/infinitybotlist/sysmanage-web v0.0.0-20240104183326-a5fca5f2f5f7/go.mod h1:D2eD3R7dcojWHdMFN0AkRHdL2XDiCSuxVp+cAdY97/E=
+github.com/infinitybotlist/sysmanage-web v0.0.0-20240104183504-9a1ddea91df6 h1:OI54tLwrqUPkm9dfAX7+qm/ak2TRXby98BNZXgrmLwI=
+github.com/infinitybotlist/sysmanage-web v0.0.0-20240104183504-9a1ddea91df6/go.mod h1:D2eD3R7dcojWHdMFN0AkRHdL2XDiCSuxVp+cAdY97/E=
 github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 h1:BQSFePA1RWJOlocH6Fxy8MmwDt+yVQYULKfN0RoTN8A=
 github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99/go.mod h1:1lJo3i6rXxKeerYnT8Nvf0QmHCRC1n8sfWVwXF2Frvo=
 github.com/kevinburke/ssh_config v1.2.0 h1:x584FjTGwHzMwvHx18PXxbBVzfnxogHaAReU4gf13a4=
