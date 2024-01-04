@@ -11,5 +11,5 @@ servers:
             - sendfile on;
             - sendfile_max_chunk 1m;
             - autoindex on;
-            - alias /silverpelt/cdn/vivum/;
+            - alias /silverpelt/cdn/vivum/build/;
 real_name: ""
