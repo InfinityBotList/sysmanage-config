@@ -1,1 +1,15 @@
 servers:
+    - id: vivum
+      names:
+        - vivum
+      comment: VIVUM
+      broken: false
+      locations:
+        - path: /
+          proxy: ""
+          opts:
+            - sendfile on;
+            - sendfile_max_chunk 1m;
+            - autoindex on;
+            - alias /silverpelt/cdn/vivum/;
+real_name: ""
