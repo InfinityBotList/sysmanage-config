@@ -7,7 +7,7 @@ Persistent=true
 # OnUnitActiveSec=1h -- If monotonic is desired, maybe it is(?)
 OnCalendar=hourly
 WakeSystem=true
-RandomizeDelaySec=20m
+RandomizedDelaySec=20m
 
 [Install]
 WantedBy=timers.target
