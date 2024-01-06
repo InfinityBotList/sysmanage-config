@@ -7,7 +7,8 @@ servers:
       locations:
         - path: /
           proxy: http://127.0.0.1:4220
-          opts: []
+          opts:
+            - proxy_set_header Host $host
     - id: dev
       names:
         - dev
