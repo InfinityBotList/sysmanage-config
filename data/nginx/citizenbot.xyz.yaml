@@ -1,1 +1,11 @@
 servers:
+    - id: citizen-api
+      names:
+        - api
+      comment: Citizen bot api
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:10502
+          opts: []
+real_name: ""
