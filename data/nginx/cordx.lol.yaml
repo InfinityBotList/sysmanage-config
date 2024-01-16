@@ -7,7 +7,8 @@ servers:
       locations:
         - path: /
           proxy: http://127.0.0.1:4220
-          opts: []
+          opts:
+            - client_max_body_size 1000M;
     - id: dev
       names:
         - dev
@@ -34,7 +35,8 @@ servers:
       locations:
         - path: /
           proxy: http://127.0.0.1:4942
-          opts: []
+          opts:
+            - client_max_body_size 1000M;
     - id: pastes
       names:
         - pastes
