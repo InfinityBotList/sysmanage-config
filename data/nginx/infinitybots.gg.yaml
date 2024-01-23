@@ -8,7 +8,8 @@ servers:
       locations:
         - path: /
           proxy: http://127.0.0.1:8081
-          opts: []
+          opts: 
+            - client_max_body_size 100M;
     - id: arcadia-prod--panel-api
       names:
         - prod--panel-api
@@ -17,7 +18,8 @@ servers:
       locations:
         - path: /
           proxy: http://127.0.0.1:3010
-          opts: []
+          opts: 
+            - client_max_body_size 10M;
     - id: widgets
       names:
         - widgets
@@ -62,7 +64,8 @@ servers:
       locations:
         - path: /
           proxy: http://127.0.0.1:5810
-          opts: []
+          opts: 
+            - client_max_body_size 10M
     - id: cdn
       names:
         - cdn
@@ -104,7 +107,8 @@ servers:
       locations:
         - path: /
           proxy: http://127.0.0.1:19318
-          opts: []
+          opts: 
+            - client_max_body_size 10M;
     - id: servo
       names:
         - servo
@@ -151,7 +155,8 @@ servers:
       locations:
         - path: /
           proxy: http://127.0.0.1:8083
-          opts: []
+          opts: 
+            - client_max_body_size 50M;
     - id: ashfur
       names:
         - ashfur
