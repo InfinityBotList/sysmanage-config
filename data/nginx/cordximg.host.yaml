@@ -1,1 +1,12 @@
 servers:
+    - id: prod
+      names:
+        - '@root'
+      comment: Production website
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4220
+          opts:
+            - client_max_body_size 500M;
+real_name: ""
