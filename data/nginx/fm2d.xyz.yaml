@@ -1,1 +1,11 @@
 servers:
+    - id: proxy
+      names:
+        - proxy
+      comment: FM2D Script Proxy
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:10429
+          opts: []
+real_name: ""
