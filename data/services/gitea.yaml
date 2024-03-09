@@ -1,0 +1,8 @@
+cmd: /home/gitea/gitea web -c /silverpelt/gitea/gitea/conf/app.ini
+dir: /silverpelt/gitea
+target: core
+description: gitea
+after: ibl-maint
+broken: false
+user: gitea
+group: gitea
