@@ -112,11 +112,11 @@ servers:
     - id: servo
       names:
         - servo
-      comment: servo gitea
+      comment: Infinity Gitea Instance
       broken: false
       locations:
         - path: /
-          proxy: http://127.0.0.1:5100
+          proxy: http://127.0.0.1:30000
           opts:
             - rewrite ^/user/login.*$ /user/oauth2/nextcloud last;
     - id: snip
