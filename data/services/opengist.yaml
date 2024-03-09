@@ -1,4 +1,4 @@
-cmd: /usr/bin/opengist --config /silverpelt/opengist
+cmd: /usr/bin/opengist --config /silverpelt/opengist/config.yml
 dir: /silverpelt/opengist
 target: core
 description: opengist
