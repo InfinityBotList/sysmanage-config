@@ -1,6 +1,11 @@
 [Service]
 Type=oneshot
 ExecStart=/usr/bin/mkiblbackup infinity /home/ibl/.dbcerts/public.pem
+ExecStart=/usr/bin/mkiblbackup gitlogs /home/ibl/.dbcerts/public.pem
+ExecStart=/usr/bin/mkiblbackup nextcloud /home/ibl/.dbcerts/public.pem
+ExecStart=/usr/bin/mkiblbackup gitea /home/ibl/.dbcerts/public.pem
+ExecStart=/usr/bin/mkiblbackup vivum /home/ibl/.dbcerts/public.pem
+ExecStart=/usr/bin/mkiblbackup skynet /home/ibl/.dbcerts/public.pem
 User=ibl
 Group=ibl
 WorkingDirectory=/home/ibl
