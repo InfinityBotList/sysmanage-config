@@ -1,5 +1,5 @@
 cmd: /usr/bin/npm start
-dir: /home/cordx/API
+dir: /home/cordx/api
 target: cordx
 description: Cordx api
 after: void
