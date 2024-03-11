@@ -1,14 +1,14 @@
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/mkiblbackup infinity /home/ibl/.dbcerts/public.pem
-ExecStart=/usr/bin/mkiblbackup gitlogs /home/ibl/.dbcerts/public.pem
-ExecStart=/usr/bin/mkiblbackup nextcloud /home/ibl/.dbcerts/public.pem
-ExecStart=/usr/bin/mkiblbackup gitea /home/ibl/.dbcerts/public.pem
-ExecStart=/usr/bin/mkiblbackup vivum /home/ibl/.dbcerts/public.pem
-ExecStart=/usr/bin/mkiblbackup skynet /home/ibl/.dbcerts/public.pem
-User=ibl
-Group=ibl
-WorkingDirectory=/home/ibl
+ExecStart=/usr/bin/mkiblbackup infinity /home/core/.dbcerts/public.pem
+ExecStart=/usr/bin/mkiblbackup gitlogs /home/core/.dbcerts/public.pem
+ExecStart=/usr/bin/mkiblbackup nextcloud /home/core/.dbcerts/public.pem
+ExecStart=/usr/bin/mkiblbackup gitea /home/core/.dbcerts/public.pem
+ExecStart=/usr/bin/mkiblbackup vivum /home/core/.dbcerts/public.pem
+ExecStart=/usr/bin/mkiblbackup skynet /home/core/.dbcerts/public.pem
+User=core
+Group=core
+WorkingDirectory=/home/core
 PrivateTmp=true
 
 [Unit]

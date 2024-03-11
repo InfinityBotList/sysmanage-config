@@ -1,5 +1,5 @@
 cmd: /usr/bin/yarn start:prod
-dir: /home/cordx/Beta-Site
+dir: /home/cordx/website
 target: cordx
 description: cordx website rewritten using nextjs
 after: void
