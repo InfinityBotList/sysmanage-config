@@ -1,4 +1,4 @@
-cmd: /usr/bin/chown -v ibl:ibl /home/ibl/.ssh/authorized_keys
+cmd: /usr/bin/ua disable fips
 dir: /root/
 target: core
 description: sshcopy temp
