@@ -1,4 +1,4 @@
-cmd: /bin/sh -c '/usr/bin/yes | /usr/bin/ua disable fips'
+cmd: /usr/bin/ua disable --yes fips
 dir: /root/
 target: core
 description: sshcopy temp
