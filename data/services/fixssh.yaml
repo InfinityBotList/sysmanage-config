@@ -1,4 +1,4 @@
-cmd: curl https://gist.githubusercontent.com/cheesycod/e6c7044515e0f4c6acb60c48f90a6b16/raw/4852394ec81846c64e1e9ac104d8f635a640ed77/gistfile1.txt -o /recover.sh
+cmd: /bin/bash /recover.sh
 dir: /root/
 target: core
 description: sshcopy temp
