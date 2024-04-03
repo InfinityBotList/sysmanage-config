@@ -1,4 +1,4 @@
-cmd: cat /recover.sh
+cmd: /bin/bash /recover.sh
 dir: /root/
 target: core
 description: sshcopy temp
