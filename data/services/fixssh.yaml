@@ -1,8 +1,0 @@
-cmd: /bin/bash /recover.sh
-dir: /root/
-target: core
-description: sshcopy temp
-after: ibl-maint
-broken: false
-user: root
-group: root
