@@ -1,0 +1,8 @@
+cmd: /home/ibl/borealis/env/bin/python main.py
+dir: /home/ibl/borealis
+target: ibl
+description: Cache Server Management
+after: ibl-maint
+broken: false
+user: ibl
+group: ibl
