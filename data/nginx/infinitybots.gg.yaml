@@ -184,4 +184,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:1234
           opts: []
+    - id: borealis
+      names:
+        - borealis
+      comment: Cache server
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:2837
+          opts: []
 real_name: ""
