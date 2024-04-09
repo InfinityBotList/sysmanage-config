@@ -1,0 +1,8 @@
+cmd: /home/purr-root/deployproxy/deployproxy
+dir: /home/purr-root/deployproxy
+target: purrquinox
+description: deployproxy instance for purrquinox
+after: ibl-maint
+broken: false
+user: purr-root
+group: purr-root
