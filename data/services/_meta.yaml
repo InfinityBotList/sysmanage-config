@@ -33,3 +33,5 @@ targets:
       description: LinkCord project
     - name: elixir
       description: Elixirs Projects
+    - name: purrquinox
+      description: purrquinox
