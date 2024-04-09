@@ -1,0 +1,8 @@
+cmd: /root/sysmanage-hepatitis/sysmanage
+dir: /root/sysmanage-hepatitis
+target: purrquinox
+description: sysmanage-purrquinox
+after: ibl-maint
+broken: false
+user: root
+group: root
