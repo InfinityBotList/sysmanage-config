@@ -1,0 +1,8 @@
+cmd: /home/ibl/arcadia/staging/bot
+dir: /home/ibl/arcadia/staging
+target: ibl
+description: arcadia staging
+after: ibl-maint
+broken: false
+user: ibl
+group: ibl
