@@ -193,4 +193,14 @@ servers:
         - path: /
           proxy: http://localhost:2837
           opts: []
+    - id: arcadia-staging--panel-api
+      names:
+        - staging--panel-api
+      comment: staging--panel-api
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:3011
+          opts:
+            - client_max_body_size 100M;
 real_name: ""
