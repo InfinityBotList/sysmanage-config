@@ -1,0 +1,8 @@
+cmd: /home/ibl/arcadia/prod/bot
+dir: /home/ibl/arcadia/prod
+target: ibl
+description: Arcadia Prod
+after: ibl-maint
+broken: false
+user: ibl
+group: ibl
