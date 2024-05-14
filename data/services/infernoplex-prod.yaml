@@ -1,0 +1,8 @@
+cmd: /home/ibl/infernoplex/prod/infernoplex
+dir: /home/ibl/infernoplex/prod
+target: ibl
+description: infernoplex prod
+after: ibl-maint
+broken: false
+user: ibl
+group: ibl
