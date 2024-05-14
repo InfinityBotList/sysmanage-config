@@ -1,0 +1,8 @@
+cmd: /home/ibl/infernoplex/staging/infernoplex
+dir: /home/ibl/infernoplex/staging
+target: ibl
+description: infernoplex staging
+after: ibl-maint
+broken: false
+user: ibl
+group: ibl
