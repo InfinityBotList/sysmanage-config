@@ -1,1 +1,11 @@
 servers:
+    - id: hiroko-website
+      names:
+        - '@root'
+      comment: Hiroko main website
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:6420
+          opts: []
+real_name: ""
