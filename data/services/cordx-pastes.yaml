@@ -1,5 +1,5 @@
 cmd: /usr/bin/npm start
-dir: /home/cordx/Pastes
+dir: /home/cordx/pastes
 target: cordx
 description: Cordx paste bin
 after: void
