@@ -1,0 +1,8 @@
+cmd: /usr/bin/yarn start
+dir: /home/hiroko/website
+target: cordx
+description: Hiroko main website
+after: ibl-maint
+broken: true
+user: ""
+group: ""
