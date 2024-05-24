@@ -57,4 +57,13 @@ servers:
         - path: /
           proxy: http://localhost:10501
           opts: []
+    - id: dns-server
+      names:
+        - dns
+      comment: CordX DNS Server
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:10505
+          opts: []
 real_name: ""
