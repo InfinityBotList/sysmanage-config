@@ -66,4 +66,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:10505
           opts: []
+    - id: beta-api
+      names:
+        - demonstride
+      comment: CordX Beta API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:4995
+          opts: []
 real_name: ""
