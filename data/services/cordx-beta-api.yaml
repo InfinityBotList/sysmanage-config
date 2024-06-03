@@ -1,5 +1,5 @@
 cmd: /usr/bin/yarn start:node
-dir: /home/cordx/demonstride
+dir: /home/cordx/beta-api
 target: cordx
 description: CordX Beta API
 after: ibl-maint
