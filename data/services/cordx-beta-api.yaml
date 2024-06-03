@@ -1,4 +1,4 @@
-cmd: /usr/bin/yarn start:build
+cmd: /usr/bin/yarn start:node
 dir: /home/cordx/beta-api
 target: cordx
 description: CordX Beta API
