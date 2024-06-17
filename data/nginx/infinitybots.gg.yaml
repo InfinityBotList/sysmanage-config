@@ -147,7 +147,7 @@ servers:
         - path: /
           proxy: http://127.0.0.1:1234
           opts: []
-    - id: spider-staging
+    - id: popplio-staging
       names:
         - spider-staging
       comment: Popplio (staging)
@@ -203,4 +203,22 @@ servers:
           proxy: http://127.0.0.1:3012
           opts:
             - client_max_body_size 100M;
+    - id: infernoplex-staging
+      names:
+        - infernoplex-staging
+      comment: infernoplex staging api (server listing)
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:61000
+          opts: []
+    - id: infernoplex
+      names:
+        - infernoplex
+      comment: infernoplex production api (server listing)
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:61001
+          opts: []
 real_name: ""
