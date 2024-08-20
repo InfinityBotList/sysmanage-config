@@ -7,7 +7,7 @@ Type=simple
 User=seaweed
 Group=seaweed
 
-ExecStart=/usr/bin/weed server -filer -s3 -volume.max=100 -master.port=9333 -volume.port=9334 -master.volumeSizeLimitMB=4096 -dir=/cordx/seaweed -filer.encryptVolumeData -s3.config=/etc/seaweedfs/s3.json
+ExecStart=/usr/bin/weed server -filer -s3 -volume.max=100 -master.port=9333 -volume.port=9334 -master.volumeSizeLimitMB=4096 -dir=/cordx/seaweedfs -filer.encryptVolumeData -s3.config=/etc/seaweedfs/s3.json
 WorkingDirectory=/usr/bin/
 SyslogIdentifier=seaweedfs-master
 
