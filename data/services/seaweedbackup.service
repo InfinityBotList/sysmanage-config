@@ -1,0 +1,15 @@
+[Unit]
+Description=SeaweedFS Master
+After=seaweedmaster.service
+
+[Service]
+Type=simple
+User=seaweed
+Group=seaweed
+
+ExecStart=/usr/bin/weed filer.backup 
+WorkingDirectory=/usr/bin/
+SyslogIdentifier=seaweedfs-master
+
+[Install]
+WantedBy=multi-user.target
