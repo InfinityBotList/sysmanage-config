@@ -9,4 +9,13 @@ servers:
           proxy: http://127.0.0.1:4220
           opts:
             - client_max_body_size 500M;
+    - id: bucket
+      names:
+        - bucket
+      comment: bucket
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:8333
+          opts: []
 real_name: ""
