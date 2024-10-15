@@ -8,15 +8,4 @@ servers:
         - path: /
           proxy: http://127.0.0.1:19318
           opts: []
-    - id: docs
-      names:
-        - help
-        - docs
-        - guide
-      comment: Git Logs Documentation Site
-      broken: false
-      locations:
-        - path: /
-          proxy: http://127.0.0.1:5420
-          opts: []
 real_name: ""
