@@ -11,8 +11,6 @@ servers:
     - id: docs
       names:
         - help
-        - guide
-        - docs
       comment: Git Logs Documentation Site
       broken: false
       locations:
