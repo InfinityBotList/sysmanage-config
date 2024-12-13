@@ -18,30 +18,4 @@ servers:
         - path: /
           proxy: http://127.0.0.1:8333
           opts: []
-    - id: minivisor
-      names:
-        - minivisor
-      comment: Minio Console for CordX's Seaweed Bucket
-      broken: false
-      locations:
-        - path: /
-          proxy: http://localhost:9001
-          opts:
-            - proxy_set_header Upgrade $http_upgrade;
-            - proxy_set_header X-Real-IP $remote_addr;
-            - proxy_read_timeout 3600s;
-            - proxy_send_timeout 3600s;
-    - id: minivault
-      names:
-        - minivault
-      comment: Minio API for CordX's Seaweed Bucket
-      broken: false
-      locations:
-        - path: /
-          proxy: http://localhost:9002
-          opts:
-            - proxy_set_header Upgrade $http_upgrade;
-            - proxy_set_header X-Real-IP $remote_addr;
-            - proxy_read_timeout 3600s;
-            - proxy_send_timeout 3600s;
 real_name: ""
