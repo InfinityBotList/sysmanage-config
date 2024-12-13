@@ -35,6 +35,5 @@ servers:
       locations:
         - path: /
           proxy: http://localhost:9002
-          opts:
-            - ""
+          opts: []
 real_name: ""
