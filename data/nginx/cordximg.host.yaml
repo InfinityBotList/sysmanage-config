@@ -18,4 +18,22 @@ servers:
         - path: /
           proxy: http://127.0.0.1:8333
           opts: []
+    - id: minivisor
+      names:
+        - minivisor
+      comment: Minio Console for CordX's Seaweed Bucket
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:9001
+          opts: []
+    - id: minivault
+      names:
+        - minivault
+      comment: Minio API for CordX's Seaweed Bucket
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:9002
+          opts: []
 real_name: ""
