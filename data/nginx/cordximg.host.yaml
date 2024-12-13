@@ -36,5 +36,5 @@ servers:
         - path: /
           proxy: http://localhost:9002
           opts:
-            - proxy_set_header Connection 'upgrade';
+            - ""
 real_name: ""
