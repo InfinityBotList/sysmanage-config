@@ -26,11 +26,7 @@ servers:
       locations:
         - path: /
           proxy: http://localhost:9001
-          opts:
-            - proxy_set_header Upgrade $http_upgrade;
-            - proxy_set_header Connection "upgrade";
-            - proxy_read_timeout 3600s;
-            - proxy_send_timeout 3600s;
+          opts: []
     - id: minivault
       names:
         - minivault
@@ -39,9 +35,5 @@ servers:
       locations:
         - path: /
           proxy: http://localhost:9002
-          opts:
-            - proxy_set_header Upgrade $http_upgrade;
-            - proxy_set_header Connection "upgrade";
-            - proxy_read_timeout 3600s;
-            - proxy_send_timeout 3600s;
+          opts: []
 real_name: ""
