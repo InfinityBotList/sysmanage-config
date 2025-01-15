@@ -8,4 +8,13 @@ servers:
         - path: /
           proxy: http://localhost:5173
           opts: []
+    - id: infinitydevelopment-api
+      names:
+        - idapi
+      comment: Infinity Development API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:1337
+          opts: []
 real_name: ""
