@@ -1,1 +1,11 @@
 servers:
+    - id: infinitydevs-site
+      names:
+        - '@'
+      comment: Infinity Development Website
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:9929
+          opts: []
+real_name: ""
