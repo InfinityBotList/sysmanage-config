@@ -1,7 +1,7 @@
 servers:
     - id: infinitydevs-site
       names:
-        - '@'
+        - '@root'
       comment: Infinity Development Website
       broken: false
       locations:
