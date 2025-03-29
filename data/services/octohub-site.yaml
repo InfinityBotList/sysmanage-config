@@ -1,0 +1,8 @@
+cmd: /usr/bin/bun start
+dir: /home/octohub/website/soon-landing
+target: core
+description: OctoHub NextJS Website
+after: ibl-maint
+broken: false
+user: root
+group: root
