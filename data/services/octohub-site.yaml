@@ -1,4 +1,4 @@
-cmd: /snap/bin/bun start
+cmd: /snap/bin/bun run start
 dir: /home/octohub/website/soon-landing
 target: core
 description: OctoHub NextJS Website
