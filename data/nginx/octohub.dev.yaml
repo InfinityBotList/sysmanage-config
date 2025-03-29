@@ -1,1 +1,11 @@
 servers:
+    - id: ocothub-website
+      names:
+        - '@root'
+      comment: Main Website
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:60420
+          opts: []
+real_name: ""
