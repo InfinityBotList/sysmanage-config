@@ -1,5 +1,5 @@
 cmd: /usr/bin/npm start
-dir: /home/octohub/website/soon-landing
+dir: /home/octohub/website/waitlist
 target: core
 description: OctoHub NextJS Website
 after: ibl-maint
