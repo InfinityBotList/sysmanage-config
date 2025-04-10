@@ -1,1 +1,87 @@
 servers:
+    - id: prod
+      names:
+        - '@root'
+      comment: CordX Production Website
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4220
+          opts:
+            - client_max_body_size 500M;
+    - id: dev
+      names:
+        - dev
+      comment: CordX Development Website
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4942
+          opts:
+            - client_max_body_size 500M;
+    - id: api
+      names:
+        - api
+      comment: CordX API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4985
+          opts:
+            - client_max_body_size 500M;
+    - id: beta
+      names:
+        - beta
+      comment: CordX Beta Website
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4942
+          opts:
+            - client_max_body_size 500M;
+    - id: pastes
+      names:
+        - pastes
+      comment: CordX CodeBin/Pastebin Fork
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:7777
+          opts: []
+    - id: proxy
+      names:
+        - proxy
+      comment: CordX Proxy
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:10501
+          opts: []
+    - id: dns-server
+      names:
+        - dns
+      comment: CordX DNS Server
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:10505
+          opts: []
+    - id: beta-api
+      names:
+        - demonstride
+      comment: CordX Demonstride API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:4995
+          opts: []
+    - id: bucket
+      names:
+        - bucket
+      comment: CordX Seaweed Bucket
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:8333
+          opts: []
+real_name: ""
