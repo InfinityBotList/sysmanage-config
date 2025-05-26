@@ -9,22 +9,22 @@ import (
 	"github.com/infinitybotlist/sysmanage-web/plugins/nginx"
 	"github.com/infinitybotlist/sysmanage-web/plugins/persist"
 	"github.com/infinitybotlist/sysmanage-web/plugins/systemd"
- 	"github.com/infinitybotlist/sysmanage-web/plugins/authdummy"
+ 	"github.com/infinitybotlist/sysmanage-web/plugins/authdp"
 	"github.com/infinitybotlist/sysmanage-web/types"
 )
 
 var meta = types.ServerMeta{
 	ConfigVersion: 1,
 	Plugins: []types.Plugin{
-		/*{
+		{
 			ID:      authdp.ID,
 			Init:    authdp.InitPlugin,
 			Preload: authdp.Preload,
-		},*/
-		{
+		},
+		/*{
 			ID: "authdummy",
 			Init: authdummy.InitPlugin,
-		},
+		},*/
 		{
 			ID:   nginx.ID,
 			Init: nginx.InitPlugin,
