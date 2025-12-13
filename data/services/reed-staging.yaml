@@ -1,4 +1,4 @@
-cmd: /usr/bin/npm run start
+cmd: /usr/bin/npm run start -- -p 3003
 dir: /home/ibl/infinity-next
 target: ibl
 description: Frontend for IBL
