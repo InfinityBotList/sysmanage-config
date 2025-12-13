@@ -23,8 +23,6 @@ targets:
       description: Discord Jobs Services (DSCJobs/JobCord)
     - name: migizi
       description: Migizi Bot
-    - name: rootpersonal
-      description: Rootspring's personal stuff (vivum bots)
     - name: narc
       description: North America Roleplay Community
     - name: core
