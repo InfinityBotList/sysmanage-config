@@ -1,4 +1,4 @@
-cmd: /usr/bin/ibl proxy --outbound-ip 198.251.71.96
+cmd: /usr/bin/ibl proxy
 dir: /home/dummy
 target: core
 description: Core Discord Base Proxy
