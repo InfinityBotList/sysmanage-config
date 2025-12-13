@@ -226,7 +226,7 @@ servers:
       broken: false
       locations:
         - path: /
-          proxy: http://olympia:4221
+          proxy: http://127.0.0.1:3003
           opts: []
     - id: reedwhisker-prod
       names:
@@ -236,6 +236,6 @@ servers:
       broken: false
       locations:
         - path: /
-          proxy: http://olympia:4222
+          proxy: http://127.0.0.1:3004
           opts: []
 real_name: ""
