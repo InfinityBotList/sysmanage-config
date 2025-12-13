@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm run start -- -p 3004
+dir: /home/ibl/infinity-next-prod
+target: ibl
+description: Frontend for IBL (production)
+after: ibl-maint
+broken: false
+user: ibl
+group: ibl
