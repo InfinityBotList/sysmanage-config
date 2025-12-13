@@ -84,4 +84,13 @@ servers:
         - path: /
           proxy: http://localhost:8333
           opts: []
+    - id: Minivisor
+      names:
+        - minivisor
+      comment: Idk
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:9001
+          opts: []
 real_name: ""

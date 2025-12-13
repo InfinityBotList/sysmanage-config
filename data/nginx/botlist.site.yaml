@@ -17,4 +17,14 @@ servers:
         - path: /
           proxy: http://localhost:1337
           opts: []
+    - id: prod
+      names:
+        - '@root'
+        - www
+      comment: prod
+      broken: false
+      locations:
+        - path: /
+          proxy: http://olympia:4222
+          opts: []
 real_name: ""

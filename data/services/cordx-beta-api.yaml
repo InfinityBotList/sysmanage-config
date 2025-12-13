@@ -1,8 +1,0 @@
-cmd: /usr/bin/yarn start:build
-dir: /home/cordx/beta-api
-target: cordx
-description: CordX Beta API
-after: ibl-maint
-broken: false
-user: cordx
-group: cordx

@@ -1,8 +1,0 @@
-cmd: /usr/bin/yarn start
-dir: /home/cordx/proxy
-target: cordx
-description: Cordx Proxy Service
-after: ibl-maint
-broken: false
-user: cordx
-group: cordx

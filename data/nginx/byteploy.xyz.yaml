@@ -1,0 +1,23 @@
+servers:
+    - id: Byteploy
+      names:
+        - '@'
+      comment: ByteBrush Dokploy Instance
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:3004
+          opts: []
+        - path: /drawer-logs
+          proxy: http://localhost:3004
+          opts:
+            - proxy_set_header Upgrade $http_upgrade;
+            - proxy_set_header X-Real-IP $remote_addr;
+            - proxy_set_header X-Real-IP $remote_addr;
+        - path: /listen-deployment
+          proxy: http://localhost:3004
+          opts:
+            - proxy_set_header Upgrade $http_upgrade;
+            - proxy_set_header X-Real-IP $remote_addr;
+            - proxy_set_header X-Real-IP $remote_addr;
+real_name: ""

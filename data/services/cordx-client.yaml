@@ -1,8 +1,0 @@
-cmd: /usr/bin/yarn start:build
-dir: /home/cordx/client
-target: cordx
-description: Cordx discord bot
-after: void
-broken: false
-user: cordx
-group: cordx

@@ -4,12 +4,13 @@ import (
 	"sysmanage-config/plugins/updprod"
 
 	"github.com/infinitybotlist/sysmanage-web/plugins/actions"
+	"github.com/infinitybotlist/sysmanage-web/plugins/authdp"
+	//"github.com/infinitybotlist/sysmanage-web/plugins/authdummy"
 	"github.com/infinitybotlist/sysmanage-web/plugins/frontend"
 	"github.com/infinitybotlist/sysmanage-web/plugins/logger"
 	"github.com/infinitybotlist/sysmanage-web/plugins/nginx"
 	"github.com/infinitybotlist/sysmanage-web/plugins/persist"
 	"github.com/infinitybotlist/sysmanage-web/plugins/systemd"
- 	"github.com/infinitybotlist/sysmanage-web/plugins/authdp"
 	"github.com/infinitybotlist/sysmanage-web/types"
 )
 
@@ -23,7 +24,10 @@ var meta = types.ServerMeta{
 		},
 		/*{
 			ID: "authdummy",
-			Init: authdummy.InitPlugin,
+			Init: func(c *types.PluginConfig) error {
+				state.AuthPlugins = append(state.AuthPlugins, "authdummy")
+				return nil
+			},
 		},*/
 		{
 			ID:   nginx.ID,

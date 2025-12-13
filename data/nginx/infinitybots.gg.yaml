@@ -117,18 +117,16 @@ servers:
       locations:
         - path: /
           proxy: http://127.0.0.1:30000
-          opts:
-            - rewrite ^/user/login.*$ /user/oauth2/nextcloud last;
+          opts: []
     - id: snip
       names:
         - snip
-      comment: opengist uses gitea -> cloud for auth
+      comment: opengist uses gitea for auth
       broken: false
       locations:
         - path: /
           proxy: http://127.0.0.1:6157
-          opts:
-            - rewrite ^/login.*$ /oauth/gitea last;
+          opts: []
     - id: skynet
       names:
         - skynet
@@ -154,7 +152,7 @@ servers:
       broken: false
       locations:
         - path: /
-          proxy: http://127.0.0.1:8083
+          proxy: http://localhost:8083
           opts:
             - client_max_body_size 50M;
     - id: ashfur
@@ -220,5 +218,24 @@ servers:
       locations:
         - path: /
           proxy: http://127.0.0.1:61001
+          opts: []
+    - id: reedwhisker
+      names:
+        - reedwhisker
+      comment: Reedwhisker (Staging)
+      broken: false
+      locations:
+        - path: /
+          proxy: http://olympia:4221
+          opts: []
+    - id: reedwhisker-prod
+      names:
+        - www
+        - '@root'
+      comment: Production
+      broken: false
+      locations:
+        - path: /
+          proxy: http://olympia:4222
           opts: []
 real_name: ""

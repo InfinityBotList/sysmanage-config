@@ -1,8 +1,0 @@
-cmd: /usr/bin/yarn app:prod
-dir: /home/cordx/dns
-target: cordx
-description: CordX DNS Server
-after: ibl-maint
-broken: false
-user: cordx
-group: cordx
