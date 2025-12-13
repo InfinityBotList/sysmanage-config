@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm run start
+dir: /home/ibl/Infinity-Next
+target: ibl
+description: Frontend for IBL
+after: ibl-maint
+broken: false
+user: ibl
+group: ibl
