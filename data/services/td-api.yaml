@@ -1,8 +1,0 @@
-cmd: /usr/bin/yarn start
-dir: /home/narc/TDAPI
-target: ibl
-description: API for Toxic Development
-after: ibl-maint
-broken: false
-user: narc
-group: narc

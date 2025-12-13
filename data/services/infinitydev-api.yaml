@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/ibl/infinitydev-api
-target: ibl
-description: Infinity Development API
-after: ibl-maint
-broken: false
-user: root
-group: root

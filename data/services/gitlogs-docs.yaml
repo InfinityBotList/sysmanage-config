@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/cordx/documentation
-target: github
-description: Git Logs Documentation
-after: ibl-maint
-broken: false
-user: cordx
-group: cordx

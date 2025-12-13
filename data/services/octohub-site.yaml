@@ -3,6 +3,6 @@ dir: /home/octohub/website/waitlist
 target: core
 description: OctoHub NextJS Website
 after: ibl-maint
-broken: false
+broken: true
 user: root
 group: root

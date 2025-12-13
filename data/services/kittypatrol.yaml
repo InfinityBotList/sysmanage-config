@@ -1,8 +1,0 @@
-cmd: /home/elixir/kp-venv/bin/python main.py
-dir: /home/elixir/kittypatrol
-target: elixir
-description: KittyPatrol
-after: ibl-maint
-broken: false
-user: elixir
-group: elixir

@@ -1,8 +1,0 @@
-cmd: /usr/bin/yarn start
-dir: /home/cordx/FM2DProxy
-target: cordx
-description: FiveM2Discord Proxy
-after: ibl-maint
-broken: false
-user: cordx
-group: cordx
